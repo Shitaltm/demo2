@@ -1,0 +1,36 @@
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink=" ">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="depart">Department</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="onClickOfAdmsn()">Admissions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="stud">Student Section</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="Staff">Staff Section</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="login">Login</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="prime-ng">Prime-NG</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+<router-outlet></router-outlet>
